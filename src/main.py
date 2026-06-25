@@ -38,3 +38,12 @@ for i in range(len(subjects)):
     print("Variance :", np.var(marks[:, i]))
 
     print("Standard Deviation :", np.std(marks[:, i]))
+
+# Student Percentages
+
+percentages = np.mean(marks, axis=1)
+
+print("\nSTUDENT PERCENTAGES")
+
+for student_id, percentage in zip(student_ids, percentages):
+    print(f"Student {student_id}: {percentage:.2f}%")

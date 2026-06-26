@@ -116,3 +116,10 @@ print("\nPASS / FAIL STATUS")
 for sid, status in zip(student_ids, passed):
     result = "PASS" if status else "FAIL"
     print(f"Student {sid}: {result}")
+    print("\nSUBJECT PASS PERCENTAGE")
+
+for i, subject in enumerate(subjects):
+    passed = np.sum(marks[:, i] >= 40)
+    percentage = (passed / len(marks)) * 100
+
+    print(f"{subject}: {percentage:.2f}%")

@@ -156,3 +156,42 @@ print("\nFAILED SUBJECT COUNT")
 
 for sid, count in zip(student_ids, failed_subjects):
     print(f"Student {sid}: {count}")
+
+print("\nHIGHEST MARKS")
+
+for i, subject in enumerate(subjects):
+    print(f"{subject}: {np.max(marks[:, i])}")
+
+print("\nHIGHEST MARKS")
+
+for i, subject in enumerate(subjects):
+    print(f"{subject}: {np.max(marks[:, i])}")
+
+print("\nMARKS RANGE")
+
+for i, subject in enumerate(subjects):
+    rng = np.ptp(marks[:, i])
+
+    print(f"{subject}: {rng}")
+
+means = np.mean(marks, axis=0)
+
+hardest = np.argmin(means)
+easiest = np.argmax(means)
+
+print("\nSUBJECT ANALYSIS")
+
+print("Hardest Subject:", subjects[hardest])
+print("Easiest Subject:", subjects[easiest])
+
+print("\nOVERALL CLASS STATISTICS")
+
+print("Highest Percentage:", np.max(percentages))
+
+print("Lowest Percentage:", np.min(percentages))
+
+print("Average Percentage:", np.mean(percentages))
+
+print("Median Percentage:", np.median(percentages))
+
+print("Standard Deviation:", np.std(percentages))

@@ -4,7 +4,7 @@ A beginner-friendly data analysis project built entirely using **NumPy**. This p
 
 The application reads student records from a CSV file and generates useful insights such as subject-wise statistics, student percentages, rankings, grades, and overall performance analysis using only NumPy.
 
----
+---------------
 
 ## 🚀 Features
 
@@ -25,14 +25,14 @@ The application reads student records from a CSV file and generates useful insig
 - 📚 Subject-wise performance insights
 - ⚡ Built entirely using NumPy
 
----
+-----------------------
 
 ## 🛠️ Technologies Used
 
 - Python 3
 - NumPy
 
----
+-----------------------
 
 ## 📁 Project Structure
 
@@ -50,7 +50,7 @@ numpy-student-performance-analyzer/
 └── .gitignore
 ```
 
----
+------------------
 
 ## 📋 Requirements
 
@@ -66,7 +66,7 @@ or
 pip install -r requirements.txt
 ```
 
----
+-------------------------
 
 ## ▶️ Running the Project
 
@@ -76,7 +76,7 @@ Navigate to the project directory and run:
 python src/main.py
 ```
 
----
+-------------------------
 
 ## 🎯 Learning Objectives
 
@@ -92,7 +92,7 @@ This project is designed to strengthen core NumPy concepts, including:
 - Aggregation functions
 - Working with multidimensional arrays
 
----
+--------------------------
 
 ## 📚 NumPy Concepts Used
 
@@ -110,7 +110,7 @@ This project is designed to strengthen core NumPy concepts, including:
 - Array Slicing
 - Axis Operations
 
----
+-------------------------
 
 ## 📌 Future Improvements
 
@@ -121,13 +121,13 @@ This project is designed to strengthen core NumPy concepts, including:
 - Correlation analysis
 - Export analysis reports
 
----
+-------------------
 
 ## 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
 
----
+--------------
 
 ## 📄 License
 
